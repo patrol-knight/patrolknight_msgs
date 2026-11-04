@@ -9,6 +9,8 @@ find_package(std_msgs REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PersonSkeleton.msg"
   "msg/SkeletonFrame.msg"
+  "msg/PersonSkeleton3D.msg"
+  "msg/SkeletonFrame3D.msg"
   DEPENDENCIES geometry_msgs std_msgs
 )
 
