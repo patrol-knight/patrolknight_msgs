@@ -1,0 +1,6 @@
+string goal_id
+geometry_msgs/PoseStamped pose
+---
+string reason  # empty on success
+---
+string state
