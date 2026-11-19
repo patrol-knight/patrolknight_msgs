@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/PersonSkeleton3D.msg"
   "msg/SkeletonFrame3D.msg"
   "msg/RobotStatus.msg"
+  "msg/CameraHealthStatus.msg"
   "action/NavigateToGoal.action"
   DEPENDENCIES builtin_interfaces geometry_msgs std_msgs
 )
